@@ -59,14 +59,13 @@ Your design must make it impossible to create a Ticket that does not reference a
 - `/Arbitrary film ratings`
 It should be impossible for a Film to have a rating other than the ones listed above.
 
-Redundancy and integrity
+- `/Redundancy and integrity`
 Your design must minimized redundant data. Eliminate association redundancy by carefully considering when an association between two classes is not needed because of an existing association. Eliminate attribute redundancy by isolating attributes to the class they describe, and don't copy them to other classes unless you can justify that the attribute represents something distinct. Eliminate value redundancy by using classes to represent new types, instead of strings, especially when the string is a label for a real thing (like a film format) or abstract concept (like a film rating).
 
 You must correctly apply the Enumerated Domain and Repeated Attribute patterns to address redundancy and integrity issues. 
 
 ## Deliverables
-You must deliver to me, via Dropbox, a single PDF containing the following documents:
-
+  
 Title page (name of course, title of assignment, team member names, due date)
 Class descriptions
 UML diagram for the entire system
